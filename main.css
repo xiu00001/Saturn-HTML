@@ -32,9 +32,9 @@ h1{
     color:#eee;
     font-family: Calibri,sans-serif;
     font-size:102px;
-    text-shadow:-1px 1px 1px gold,1px -1px 1px #000;
+    text-shadow: -2px -2.5px 2px gold,1.5px 2px 1px #000;
     padding-top: 88px;
-    padding-left:40px;
+    text-align: center;
 }
 
 h3{
@@ -55,8 +55,8 @@ nav a, nav a:link, nav a:visited{
     text-decoration: none;
     color:gold;
     font-family:Calibri,sans-serif;
-    font-size:28px;
-    padding:0 37px;
+    font-size:34px;
+    
 }
 
 nav a:hover, a:active{
@@ -67,14 +67,16 @@ nav ul{
     background-color:#444;
     border-top:10px solid #666;
     border-bottom:12px solid #666;
+    line-height:57px;
 }
 
 nav li{
     display:inline; 
-    
+    padding:0 35px 0 17px;
 }
 
 #wrapper{
+    width:1350px;
     border-left:202px solid #222;
     border-right:202px solid #222;
 }
@@ -107,13 +109,6 @@ nav li{
 #footer a{
     color:gold;
     font-size:20px;
-}
-
-#mainnav {
-    text-align:justify;
-    text-align-last:justify;
-    line-height:50px;
-    text-align:center;
 }
 
 img {
