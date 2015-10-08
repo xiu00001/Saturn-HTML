@@ -26,6 +26,7 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
 
 html, body{
     font-size: 3vh; /* default font-size = 1.0rem */
+    background-color:#222;
 }
 
 h1{
